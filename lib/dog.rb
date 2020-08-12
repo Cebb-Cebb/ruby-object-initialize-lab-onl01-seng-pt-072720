@@ -10,8 +10,8 @@ fido = Dog.new("Mutt")
 fido.breed 
   
   
-   it 'defaults the breed argument to "Mutt" in an instance variable @breed' do
-      fido = Dog.new("Fido")
+  # it 'defaults the breed argument to "Mutt" in an instance variable @breed' do
+  #     fido = Dog.new("Fido")
 
 
 # class Dog
