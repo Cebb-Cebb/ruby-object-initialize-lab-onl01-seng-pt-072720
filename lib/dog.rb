@@ -3,11 +3,12 @@ class Dog
     @name = name
     @breed = breed
   end
+end 
 
 fido = Dog.new("Mutt")
 fido.breed 
 
-end   
+ 
   
   # it 'defaults the breed argument to "Mutt" in an instance variable @breed' do
   #     fido = Dog.new("Fido")
