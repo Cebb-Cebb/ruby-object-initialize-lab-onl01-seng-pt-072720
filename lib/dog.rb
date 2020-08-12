@@ -19,6 +19,9 @@ end
 fido = Dog.new("mutt")
 
 
+lassie.breed #=> "Collie"
+
+
  
   
   # it 'defaults the breed argument to "Mutt" in an instance variable @breed' do
