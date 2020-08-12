@@ -4,18 +4,6 @@ class Dog
     @breed = breed
   end
 
-  
-
-
-
-
-end 
-
-class Dog
-  def initialize(breed)
-    @breed = breed
-  end
- 
   def breed=(breed)
     @breed = breed
   end
@@ -23,11 +11,7 @@ class Dog
   def breed
     @breed
   end
-end
-
-
-
-
+end 
 
 
 fido = Dog.new("Mutt")
