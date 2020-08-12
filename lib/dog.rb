@@ -14,12 +14,7 @@ class Dog
 end 
 
 
-
-
-fido = Dog.new("mutt")
-
-
-lassie.breed #=> "Collie"
+fido.breed
 
 
  
