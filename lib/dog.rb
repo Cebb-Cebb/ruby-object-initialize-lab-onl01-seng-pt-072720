@@ -13,8 +13,11 @@ class Dog
   end
 end 
 
-
-fido.breed
+fido = Dog.new 
+snoopy = Dog.new #=> #<Dog:0x007f970a2edfd0>
+snoopy.breed #=> nil
+snoopy.breed = "Beagle"
+snoopy.breed #=> "Beagle"
 
 
  
