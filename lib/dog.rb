@@ -3,12 +3,14 @@ class Dog
     @name = name
     @breed = breed
   end
-  
-  def breed=(breed)
-    @breed = "Mutt"
-  end 
 end 
+
+
   
+  
+   it 'defaults the breed argument to "Mutt" in an instance variable @breed' do
+      fido = Dog.new("Fido")
+
 
 # class Dog
 #   def initialize(breed)
